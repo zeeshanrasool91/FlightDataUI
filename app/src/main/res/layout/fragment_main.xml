@@ -1,0 +1,135 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#00A859"
+tools:context=".MainActivity"
+android:orientation="vertical"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by Dorkash Mobile"
+        android:textSize="13sp"
+        android:layout_alignParentRight="true"
+        android:paddingTop="6dp"
+        android:paddingRight="6dp"
+        android:textColor="#b9000000"
+        />
+
+    <ImageView
+        android:id="@+id/img_mainscreen"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/phone_illustration" />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Mkopo Pap"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/linear_layout_background"
+        android:id="@+id/inear_Layout"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="f"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:id="@+id/tv_facebook"
+            android:gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Login with FaceBook"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="We Use facebook to confirm your identity Only Log-in With your own device"
+        android:id="@+id/textView"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:gravity="center"
+        android:layout_alignBottom="@+id/img_mainscreen"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView">
+
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/radioButton1"
+
+
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="-2dp"
+        android:id="@+id/radioButton2"
+
+         />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2dp"
+        android:id="@+id/radioButton3"
+     />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2dp"
+        android:id="@+id/radioButton4"
+       />
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

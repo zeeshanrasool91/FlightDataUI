@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="google_play.flightdataui.Personal_Detail"
+    android:background="#00A859"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:textColor="#fff"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employment Details"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="@drawable/linear_layout_background_details"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+
+
+        >
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+              android:layout_marginLeft="10dp"
+            >
+           <!-- <  todo spinner required></spinner>-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employement Status"
+                android:textStyle="bold"
+                android:textSize="15dp"
+
+
+                />
+
+        </LinearLayout>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="First Name"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_firstname"
+
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  Last Name"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_last_nam"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  Date of Birth"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:inputType="date"
+            android:id="@+id/et_date_of_birth"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  E-mail Address"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:id="@+id/et_email_address"
+            />
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            >
+            <!-- <  todo spinner required></spinner>-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Pay Frequency"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+
+</LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Done"
+        android:textColor="#000"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:id="@+id/b_next_employement_detail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Powered by Dorkash Mobile"
+        android:textSize="13sp"
+        android:gravity="bottom"
+        android:layout_gravity="right"
+        android:paddingBottom="6dp"
+        android:paddingRight="6dp"
+        android:textColor="#b9000000"
+
+
+        />
+
+
+</LinearLayout>

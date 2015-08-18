@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="google_play.flightdataui.Personal_Detail"
+    android:background="#00A859"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Residential Details"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/linear_layout_background_details"
+        android:layout_gravity="top"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  House Number"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_house_number"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  House Name"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_house_name"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  Street"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_street"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  Town/City"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_town_city"
+            />
+        <EditText
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  Country"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/et_country"
+            />
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="  Postal Code"
+            android:background="@drawable/edittext_selector_background"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:id="@+id/et_postal_code"
+            />
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:text="Residential address"
+               android:textSize="15dp"
+               android:textColor="#000"
+               android:layout_gravity="top"
+               android:layout_marginTop="15dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="150dp"
+               android:layout_height="fill_parent"
+               />
+           <Spinner
+               android:id="@+id/spinner"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               />
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Time at address (Months)"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_marginRight="8dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edittext_selector_background"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:id="@+id/et_time_at_address"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="#000"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:id="@+id/b_next_residential_detail"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Powered by Dorkash Mobile"
+        android:textSize="13sp"
+        android:gravity="bottom"
+        android:layout_gravity="right"
+        android:paddingBottom="6dp"
+        android:paddingRight="6dp"
+        android:textColor="#b9000000"
+
+
+        />
+
+</LinearLayout>

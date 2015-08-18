@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="google_play.flightdataui.Personal_Detail"
+    android:background="#00A859"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+<LinearLayout
+    android:layout_marginTop="120dp"
+    android:layout_width="match_parent"
+    android:layout_height="290dp"
+    android:orientation="vertical"
+    android:background="@drawable/linear_layout_background_details"
+    android:gravity="center"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+
+
+    >
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textStyle="bold"
+         android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="First Name"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_selector_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/et_firstname"
+
+        />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Last Name"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_selector_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:id="@+id/et_last_name"
+        />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Date of Birth"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_selector_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="date"
+        android:id="@+id/et_date_of_birth"
+        />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="E-mail Address"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_selector_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et_email_address"
+        />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Pin Code"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_selector_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:id="@+id/et_home_phone"
+        />
+    <EditText
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Mobile Phone"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_selector_background"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:id="@+id/et_mobile_phone"
+        />
+</LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="#000"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:id="@+id/b_next"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Powered by Dorkash Mobile"
+        android:textSize="13sp"
+   android:gravity="bottom"
+        android:layout_gravity="right"
+        android:paddingBottom="6dp"
+        android:paddingRight="6dp"
+        android:textColor="#b9000000"
+
+
+        />
+
+
+</LinearLayout>
